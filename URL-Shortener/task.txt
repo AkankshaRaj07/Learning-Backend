@@ -5,3 +5,8 @@ Routes
 POST/URL - Generates a new short url and returns the shortened url in the format example.com/random-id.
 get/:id - redirects the suer to the original url
 get/url/anlytics/:id - returns the clicks for the provided short id.
+
+token is for authentication but stateless
+then session id is for statefull authentication
+banking sites use stateful authentication session id as they dont need for longer sessions
+but social media sites use stateless as they need to maintain for a longer period of time
